@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🌌 Space Exploration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('https://img.freepik.com/free-vector/realistic-galaxy-background_23-2148991322.jpg?t=st=1747401798~exp=1747405398~hmac=e9082104834456365d51c664e2bbc104b7f8b8427fd5599e9fb1ba881c1f85ca&w=1380'); background-size: cover; background-repeat: no-repeat; background-position: center; color: white; text-align: center; padding: 20px;">
+    <center>
+
+  <h1>🌌 Space Exploration</h1>
+  <h2>Discovering the Universe</h2>
+  <h3>Human Curiosity Beyond Earth</h3>
+  <h4>Rockets and Robots</h4>
+  <h5>NASA, ISRO, SpaceX</h5>
+  <h6>Science for the Stars</h6>
+
+  <p>This page showcases various HTML tags, styled sections, and interactive features.</p>
+  <a href="https://www.nasa.gov" target="_blank">Visit NASA Website</a>
+
+  <div class="frame" id="frame1">
+    <center>
+    <h2>🌕 The Moon</h2>
+    <p id="moonText">The Moon is Earth's only natural satellite.</p>
+    <ul>
+      <li>Phases</li>
+      <li>Surface</li>
+      <li>Gravity</li>
+    </ul>
+    <button onclick="toggleVisibility('moonText')">Show/Hide Info</button>
+    </center>
+  </div>
+
+  <div class="frame" id="frame2">
+    <center>
+    <h2>🚀 Mars Missions</h2>
+    <p id="marsText">Rovers like Perseverance are exploring Mars.</p>
+    <ol>
+      <li>Curiosity</li>
+      <li>Perseverance</li>
+      <li>Ingenuity</li>
+    </ol>
+    <button onclick="toggleVisibility('marsText')">Show/Hide Info</button>
+    </center>
+  </div>
+
+  <div class="frame" id="frame3">
+    <center>
+    <h2>🔭 Space Telescopes</h2>
+    <p id="telescopeText">Hubble and Webb explore the universe visually.</p>
+    <img src="https://c02.purpledshub.com/uploads/sites/48/2019/04/Tripod_0-f7c8ca3.jpg?webp=1&w=1200/50x50" alt="Telescope Image">
+    <button onclick="toggleVisibility('telescopeText')">Show/Hide Info</button>
+    </center>
+  </div>
+
+  <div class="frame">
+    <center>
+    <h2>🧪 Space Research Table</h2>
+    <table border="1">
+      <tr>
+        <th>Mission</th>
+        <th>Year</th>
+        <th>Success</th>
+      </tr>
+      <tr>
+        <td>Apollo 11</td>
+        <td>1969</td>
+        <td>✅</td>
+      </tr>
+      <tr>
+        <td>Mangalyaan</td>
+        <td>2013</td>
+        <td>✅</td>
+      </tr>
+    </table>
+    </center>
+  </div>
+
+  <div class="frame">
+    <center>
+    <h2>📬 Contact Form</h2>
+    <form onsubmit="return showAlert()">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message"></textarea><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div class="frame">
+    <h2>🌐 Learn More (iframe)</h2>
+    <iframe src="https://en.wikipedia.org/wiki/Space_exploration" width="100%" height="300"></iframe>
+  </div>
+
+  <script src="script.js"></script>
+    </center>
+</body>
+</html>
